@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Schibsted+Grotesk&display=swap');
+body {
+  margin: 0;
+  font-family: 'Righteous', cursive;
+  
+}
+
+.body,html{
+  overflow-x: hidden;
+}
+
+.primary{
+  background-color: #860a27;
+  padding: 5px 20px;
+  color: white;
+  border: none;
+}
+
+.login_username{
+  background-color: #C39BD3;
+  color:#860a27;
+  padding: 5px 20px;
+  border: none;
+}
