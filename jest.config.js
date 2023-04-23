@@ -5,8 +5,10 @@ module.exports = {
   },
   testMatch: ["<rootDir>/src/test/**/*.test.(js|jsx|ts|tsx)"],
   moduleNameMapper: {
-    "\\.(css|less|scss)$": "identity-obj-proxy"
+    "\\.(css|less|scss)$": "identity-obj-proxy",
+    "^axios$": "<rootDir>/src/__mocks__/axios.js"
   },
   moduleFileExtensions: ["js", "jsx", "json", "node"],
   verbose: true
 };
+
